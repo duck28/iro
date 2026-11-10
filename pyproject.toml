@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iro"
+version = "0.3.1"
+description = "Windows Fujifilm recipe library and X-E5 custom-bank reader"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/duck28/iro"
+Releases = "https://github.com/duck28/iro/releases"
+Issues = "https://github.com/duck28/iro/issues"
+
+[project.scripts]
+iro = "iro.cli:main"
+fuji-tool = "iro.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+iro = ["assets/*.png", "assets/*.ico", "bin/*.exe"]

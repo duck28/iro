@@ -1,0 +1,22 @@
+{
+  "name": "Warm Chrome Demo",
+  "base_simulation": "classic_chrome",
+  "dynamic_range": "DR400",
+  "grain_effect": {
+    "roughness": "strong",
+    "size": "small"
+  },
+  "color_chrome_effect": "strong",
+  "color_chrome_fx_blue": "weak",
+  "white_balance": {
+    "mode": "daylight",
+    "red_shift": 2,
+    "blue_shift": -5
+  },
+  "highlight": -1.0,
+  "shadow": -1.5,
+  "color": 2,
+  "sharpness": -2,
+  "noise_reduction": -4,
+  "clarity": -2
+}
